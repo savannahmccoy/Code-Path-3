@@ -2,7 +2,7 @@
 
 **Insty** is a photo sharing app using Parse as its backend.
 
-Time spent: **19** hours spent in total
+Time spent: **20** hours spent in total
 
 ## User Stories
 
@@ -15,7 +15,7 @@ The following **required** functionality is completed:
 - [x] User can view the last 20 posts submitted to "Instagram"
 - [x] User can pull to refresh the last 20 posts submitted to "Instagram"
 - [x] User can load more posts once he or she reaches the bottom of the feed using infinite Scrolling
-- [ ] User can tap a post to view post details
+- [x] User can tap a post to view post details
 - [x] User can use a tab bar to switch between all "Instagram" posts and posts published only by the user.
 
 The following **optional** features are implemented:
@@ -48,7 +48,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/cIkmxed.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/cIkmxed.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
