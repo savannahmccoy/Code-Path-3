@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		855CECB687E567DCD7635E2E /* Pods_Insty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6639DF5920699FE8B5A008 /* Pods_Insty.framework */; };
 		B86900B31D185D2F00729069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86900B21D185D2F00729069 /* AppDelegate.swift */; };
-		B86900B51D185D2F00729069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86900B41D185D2F00729069 /* ViewController.swift */; };
+		B86900B51D185D2F00729069 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86900B41D185D2F00729069 /* ShareViewController.swift */; };
 		B86900B81D185D2F00729069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86900B61D185D2F00729069 /* Main.storyboard */; };
 		B86900BA1D185D2F00729069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86900B91D185D2F00729069 /* Assets.xcassets */; };
 		B86900BD1D185D2F00729069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86900BB1D185D2F00729069 /* LaunchScreen.storyboard */; };
+		B881EBD91D1A0BB800D5F1C0 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B881EBD81D1A0BB800D5F1C0 /* PostTableViewCell.swift */; };
+		B881EC381D1B47E000D5F1C0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B881EC371D1B47E000D5F1C0 /* Post.swift */; };
+		B881EC401D1B4E2A00D5F1C0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B881EC3F1D1B4E2A00D5F1C0 /* FeedViewController.swift */; };
+		B891E4401D1CFFBE00EF78A6 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891E43F1D1CFFBE00EF78A6 /* PostNavigationController.swift */; };
+		B891E4511D1D1E6400EF78A6 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B891E4501D1D1E6400EF78A6 /* Billabong.ttf */; };
+		B891E45B1D1DA3E600EF78A6 /* ufonts.com_din-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B891E45A1D1DA3E600EF78A6 /* ufonts.com_din-light.ttf */; };
+		B891E45F1D1DA8C200EF78A6 /* Background-Insty.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E45E1D1DA8C200EF78A6 /* Background-Insty.png */; };
+		B891E4631D1DB5D200EF78A6 /* tumblr_m0j6lgmmzq1ro3fdho1_500.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E4621D1DB5D200EF78A6 /* tumblr_m0j6lgmmzq1ro3fdho1_500.png */; };
+		B891E4651D1DB71500EF78A6 /* 315546-photography-nature-plants-blurred-sunset-depth_of_field.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E4641D1DB71500EF78A6 /* 315546-photography-nature-plants-blurred-sunset-depth_of_field.png */; };
+		B891E4671D1DBA4600EF78A6 /* UploadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891E4661D1DBA4600EF78A6 /* UploadedViewController.swift */; };
+		B891E4691D1DD00B00EF78A6 /* maleprofilecircle2.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E4681D1DD00B00EF78A6 /* maleprofilecircle2.png */; };
+		B891E46B1D1DEB8B00EF78A6 /* DetailSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891E46A1D1DEB8B00EF78A6 /* DetailSegue.swift */; };
+		B891E46D1D1DF1DD00EF78A6 /* noun_heart_67881.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E46C1D1DF1DD00EF78A6 /* noun_heart_67881.png */; };
+		B891E4751D1DF40800EF78A6 /* noun_chat_196304.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E4741D1DF40800EF78A6 /* noun_chat_196304.png */; };
+		B891E4771D1DF46A00EF78A6 /* noun_share_55610.png in Resources */ = {isa = PBXBuildFile; fileRef = B891E4761D1DF46A00EF78A6 /* noun_share_55610.png */; };
+		B8BFE4401D1CD602005E8DF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BFE43F1D1CD602005E8DF0 /* Default-568h@2x.png */; };
+		B8BFE4421D1CF550005E8DF0 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BFE4411D1CF550005E8DF0 /* PostDetailsViewController.swift */; };
+		B8C7C9251D18752300B0425B /* SanFranciscoDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8C7C9241D18752300B0425B /* SanFranciscoDisplay-Ultralight.otf */; };
+		B8C7C9271D1898A300B0425B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C7C9261D1898A300B0425B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23A221A4E6E1C07663FD3CB1 /* Pods-Insty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insty/Pods-Insty.debug.xcconfig"; sourceTree = "<group>"; };
+		630F0AADAC2BAA2ABDFAFF1B /* Pods-Insty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insty/Pods-Insty.release.xcconfig"; sourceTree = "<group>"; };
 		B86900AF1D185D2F00729069 /* Insty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86900B21D185D2F00729069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B86900B41D185D2F00729069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B86900B41D185D2F00729069 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		B86900B71D185D2F00729069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B86900B91D185D2F00729069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86900BC1D185D2F00729069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B86900BE1D185D2F00729069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B881EBD81D1A0BB800D5F1C0 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B881EC371D1B47E000D5F1C0 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B881EC3F1D1B4E2A00D5F1C0 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B891E43F1D1CFFBE00EF78A6 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		B891E4501D1D1E6400EF78A6 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Billabong.ttf; path = ../../../Downloads/Billabong.ttf; sourceTree = "<group>"; };
+		B891E45A1D1DA3E600EF78A6 /* ufonts.com_din-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ufonts.com_din-light.ttf"; path = "../../../Downloads/ufonts.com_din-light.ttf"; sourceTree = "<group>"; };
+		B891E45E1D1DA8C200EF78A6 /* Background-Insty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background-Insty.png"; path = "../../../Documents/Background-Insty.png"; sourceTree = "<group>"; };
+		B891E4621D1DB5D200EF78A6 /* tumblr_m0j6lgmmzq1ro3fdho1_500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tumblr_m0j6lgmmzq1ro3fdho1_500.png; path = ../../../Downloads/tumblr_m0j6lgmmzq1ro3fdho1_500.png; sourceTree = "<group>"; };
+		B891E4641D1DB71500EF78A6 /* 315546-photography-nature-plants-blurred-sunset-depth_of_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "315546-photography-nature-plants-blurred-sunset-depth_of_field.png"; path = "../../../Downloads/315546-photography-nature-plants-blurred-sunset-depth_of_field.png"; sourceTree = "<group>"; };
+		B891E4661D1DBA4600EF78A6 /* UploadedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadedViewController.swift; sourceTree = "<group>"; };
+		B891E4681D1DD00B00EF78A6 /* maleprofilecircle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maleprofilecircle2.png; path = ../../../Downloads/maleprofilecircle2.png; sourceTree = "<group>"; };
+		B891E46A1D1DEB8B00EF78A6 /* DetailSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSegue.swift; sourceTree = "<group>"; };
+		B891E46C1D1DF1DD00EF78A6 /* noun_heart_67881.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_heart_67881.png; path = ../../../../../var/folders/7f/3b0b3zm912j3tdwndyd1y1j8xrdc1c/T/noun_heart_67881.png; sourceTree = "<group>"; };
+		B891E4741D1DF40800EF78A6 /* noun_chat_196304.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_chat_196304.png; path = ../../../../../var/folders/7f/3b0b3zm912j3tdwndyd1y1j8xrdc1c/T/noun_chat_196304.png; sourceTree = "<group>"; };
+		B891E4761D1DF46A00EF78A6 /* noun_share_55610.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_share_55610.png; path = ../../../../../var/folders/7f/3b0b3zm912j3tdwndyd1y1j8xrdc1c/T/noun_share_55610.png; sourceTree = "<group>"; };
+		B8BFE43F1D1CD602005E8DF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B8BFE4411D1CF550005E8DF0 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		B8C7C9241D18752300B0425B /* SanFranciscoDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Ultralight.otf"; path = "../../../Downloads/SanFranciscoFont-master/SanFranciscoDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		B8C7C9261D1898A300B0425B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA6639DF5920699FE8B5A008 /* Pods_Insty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855CECB687E567DCD7635E2E /* Pods_Insty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8060B6955E0E1EAD12937038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A221A4E6E1C07663FD3CB1 /* Pods-Insty.debug.xcconfig */,
+				630F0AADAC2BAA2ABDFAFF1B /* Pods-Insty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B86900A61D185D2F00729069 = {
 			isa = PBXGroup;
 			children = (
+				B8BFE43F1D1CD602005E8DF0 /* Default-568h@2x.png */,
 				B86900B11D185D2F00729069 /* Insty */,
 				B86900B01D185D2F00729069 /* Products */,
+				8060B6955E0E1EAD12937038 /* Pods */,
+				ED7FC3C970B9285A54857D1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +110,47 @@
 			isa = PBXGroup;
 			children = (
 				B86900B21D185D2F00729069 /* AppDelegate.swift */,
-				B86900B41D185D2F00729069 /* ViewController.swift */,
+				B8C7C9261D1898A300B0425B /* LoginViewController.swift */,
+				B86900B41D185D2F00729069 /* ShareViewController.swift */,
+				B8BFE4411D1CF550005E8DF0 /* PostDetailsViewController.swift */,
+				B881EC3F1D1B4E2A00D5F1C0 /* FeedViewController.swift */,
+				B891E4661D1DBA4600EF78A6 /* UploadedViewController.swift */,
+				B881EBD81D1A0BB800D5F1C0 /* PostTableViewCell.swift */,
+				B891E43F1D1CFFBE00EF78A6 /* PostNavigationController.swift */,
+				B881EC371D1B47E000D5F1C0 /* Post.swift */,
 				B86900B61D185D2F00729069 /* Main.storyboard */,
-				B86900B91D185D2F00729069 /* Assets.xcassets */,
 				B86900BB1D185D2F00729069 /* LaunchScreen.storyboard */,
+				B86900B91D185D2F00729069 /* Assets.xcassets */,
+				B891E45E1D1DA8C200EF78A6 /* Background-Insty.png */,
+				B891E4681D1DD00B00EF78A6 /* maleprofilecircle2.png */,
+				B891E4741D1DF40800EF78A6 /* noun_chat_196304.png */,
+				B891E4761D1DF46A00EF78A6 /* noun_share_55610.png */,
+				B891E46C1D1DF1DD00EF78A6 /* noun_heart_67881.png */,
+				B891E4641D1DB71500EF78A6 /* 315546-photography-nature-plants-blurred-sunset-depth_of_field.png */,
+				B891E4621D1DB5D200EF78A6 /* tumblr_m0j6lgmmzq1ro3fdho1_500.png */,
 				B86900BE1D185D2F00729069 /* Info.plist */,
+				B881EBD71D19F70100D5F1C0 /* Fonts */,
+				B891E46A1D1DEB8B00EF78A6 /* DetailSegue.swift */,
 			);
 			path = Insty;
+			sourceTree = "<group>";
+		};
+		B881EBD71D19F70100D5F1C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B891E4501D1D1E6400EF78A6 /* Billabong.ttf */,
+				B891E45A1D1DA3E600EF78A6 /* ufonts.com_din-light.ttf */,
+				B8C7C9241D18752300B0425B /* SanFranciscoDisplay-Ultralight.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		ED7FC3C970B9285A54857D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6639DF5920699FE8B5A008 /* Pods_Insty.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B86900C11D185D2F00729069 /* Build configuration list for PBXNativeTarget "Insty" */;
 			buildPhases = (
+				260B527F06DBAEFA88B8FD03 /* [CP] Check Pods Manifest.lock */,
 				B86900AB1D185D2F00729069 /* Sources */,
 				B86900AC1D185D2F00729069 /* Frameworks */,
 				B86900AD1D185D2F00729069 /* Resources */,
+				7D111F5D4D2FF01696F91D0A /* [CP] Embed Pods Frameworks */,
+				829E94F6A336E39CFDF9D9BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +188,7 @@
 				TargetAttributes = {
 					B86900AE1D185D2F00729069 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6ZD82QXX95;
 					};
 				};
 			};
@@ -124,19 +217,86 @@
 			files = (
 				B86900BD1D185D2F00729069 /* LaunchScreen.storyboard in Resources */,
 				B86900BA1D185D2F00729069 /* Assets.xcassets in Resources */,
+				B8C7C9251D18752300B0425B /* SanFranciscoDisplay-Ultralight.otf in Resources */,
+				B891E46D1D1DF1DD00EF78A6 /* noun_heart_67881.png in Resources */,
+				B891E45B1D1DA3E600EF78A6 /* ufonts.com_din-light.ttf in Resources */,
+				B891E4511D1D1E6400EF78A6 /* Billabong.ttf in Resources */,
+				B891E4691D1DD00B00EF78A6 /* maleprofilecircle2.png in Resources */,
+				B891E4751D1DF40800EF78A6 /* noun_chat_196304.png in Resources */,
+				B891E45F1D1DA8C200EF78A6 /* Background-Insty.png in Resources */,
+				B891E4771D1DF46A00EF78A6 /* noun_share_55610.png in Resources */,
+				B8BFE4401D1CD602005E8DF0 /* Default-568h@2x.png in Resources */,
 				B86900B81D185D2F00729069 /* Main.storyboard in Resources */,
+				B891E4631D1DB5D200EF78A6 /* tumblr_m0j6lgmmzq1ro3fdho1_500.png in Resources */,
+				B891E4651D1DB71500EF78A6 /* 315546-photography-nature-plants-blurred-sunset-depth_of_field.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260B527F06DBAEFA88B8FD03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D111F5D4D2FF01696F91D0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insty/Pods-Insty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		829E94F6A336E39CFDF9D9BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insty/Pods-Insty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B86900AB1D185D2F00729069 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B86900B51D185D2F00729069 /* ViewController.swift in Sources */,
+				B8C7C9271D1898A300B0425B /* LoginViewController.swift in Sources */,
+				B86900B51D185D2F00729069 /* ShareViewController.swift in Sources */,
+				B891E46B1D1DEB8B00EF78A6 /* DetailSegue.swift in Sources */,
+				B8BFE4421D1CF550005E8DF0 /* PostDetailsViewController.swift in Sources */,
+				B891E4401D1CFFBE00EF78A6 /* PostNavigationController.swift in Sources */,
+				B881EC381D1B47E000D5F1C0 /* Post.swift in Sources */,
+				B891E4671D1DBA4600EF78A6 /* UploadedViewController.swift in Sources */,
 				B86900B31D185D2F00729069 /* AppDelegate.swift in Sources */,
+				B881EC401D1B4E2A00D5F1C0 /* FeedViewController.swift in Sources */,
+				B881EBD91D1A0BB800D5F1C0 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +407,31 @@
 		};
 		B86900C21D185D2F00729069 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A221A4E6E1C07663FD3CB1 /* Pods-Insty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Insty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Codepath.Insty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		B86900C31D185D2F00729069 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630F0AADAC2BAA2ABDFAFF1B /* Pods-Insty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Insty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Codepath.Insty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +454,7 @@
 				B86900C31D185D2F00729069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
