@@ -48,7 +48,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-https://youtu.be/Fv82sCJKoKA <title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://youtu.be/Ls9lcw-pD_Q <title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Credits
